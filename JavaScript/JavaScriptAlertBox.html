@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>My First Web Page</title>
+        <script>
+    function myFunction() { 
+                alert("Example for Javascript Function");
+                }
+
+            function addition(a,b) {
+                let sum = a + b;
+                alert("Addition : " + sum + "</b");
+            }
+            function subraction(a,b) {
+                let sub = a - b;
+                alert("Subraction : " + sub + "</b>");
+            }
+            function multiplication(a,b) {
+                let multi = a * b;
+                alert("Multiplication : " + multi + "</b>");
+            }
+            function division(a,b) {
+                let divide = a / b;
+                alert("Division : "  + divide + "</b>");
+            }
+        </script>
+    </head>
+
+    <body>
+        <button onclick="myFunction()">Click Me</button>
+        <br><br>
+        <button onclick="addition(10, 20)">Addition</button>
+        <br><br>
+        <button onclick="subraction(10, 20)">Subraction</button>
+        <br><br>
+        <button onclick="multiplication(10, 20)">Multiplication</button>
+        <br><br>
+        <button onclick="division(10, 20)">Division</button>
+
+    </body>
+</html>

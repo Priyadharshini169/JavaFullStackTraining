@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>My First web Page</title>
+        <script>
+            function factorial() {
+                let fact = 1;
+                let n = parseInt(document.getElementById("n").value);
+                for(let i=1; i<=n; i++){
+                fact = fact*i;
+            }
+            document.getElementById("ResultDiv").innerHTML="<b>Factorial : " + fact;
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <button onclick ="factorial()">Factorial</button>
+        <br><br>
+        <div id="ResultDiv">
+            
+        </div>
+    </body>
+</html>
